@@ -1,3 +1,6 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 body{
     margin: 0;
     padding: 0;
@@ -35,8 +38,8 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: #727272;
-    font-size: Arial;
 }
+
 nav .activer a,
 nav a:hover {
     background-color: #39aae1;
@@ -78,4 +81,52 @@ nav a:hover {
 }
 .banner_options {
     height: 210px;
+    display: flex;
 }
+.banner1,
+.banner2,
+.banner3 {
+    flex: 1;
+    color: #FFFFFF;
+    padding: 20px;
+}
+.banner1{
+    background-color: #39aae1;
+}
+.banner2{
+    background-color: #0079c7;
+}
+.banner3{
+    background-color: #2b4c99;
+}
+.banner_title{
+    font-size: 21px;
+}
+.banner_desc {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+.banner_options a {
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    padding: 5px;
+    color: 5px;
+    color: #FFFFFF;
+    font-size: 13px;
+    text-decoration: none;
+}
+.Monday,
+.Saturday,
+.Sunday {
+    margin: 20px;
+    padding: 6px;
+    border-bottom: 1px solid #ebe9e9;
+}
+ 
+ p {
+    text-align: right;
+    top: 10px;
+    right: 20px;
+ }
