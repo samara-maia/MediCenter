@@ -1,2 +1,2 @@
 # MediCenter
-treinamento para criação de site em HMTL
+treinamento para criação de site em HMTL e CSS
