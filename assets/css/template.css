@@ -117,16 +117,17 @@ nav a:hover {
     font-size: 13px;
     text-decoration: none;
 }
+p {
+    margin-top: -9px;
+    margin-left: 6px;
+    text-align-last: right; 
+ }
+
 .Monday,
 .Saturday,
 .Sunday {
-    margin: 20px;
-    padding: 6px;
+    text-align-last:start;
+    margin-bottom: 3px;
     border-bottom: 1px solid #ebe9e9;
 }
  
- p {
-    text-align: right;
-    top: 10px;
-    right: 20px;
- }
